@@ -178,3 +178,14 @@ body {
   color: #246deb;
   text-decoration: underline;
 }
+
+@media (max-width: 318px) {
+  [class*=container] {
+    max-width: 318px;
+  }
+  .button {
+    font-size: 14px;
+    line-height: 48px;
+    padding: 12px 40px;
+  }
+}
